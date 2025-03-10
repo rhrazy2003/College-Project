@@ -256,23 +256,36 @@
     font-size: medium;
 }
 .description{
-    width: 75%;
+    width: 60%;
     border: 1px solid red;
-    height: 500px;
+    height: 400px;
     padding: 25px 200px;
 
 }
-.description h2{
-    margin-left: 150px;
-}
+
 .video-detail{
     display: flex;
     justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
 }
 .video-detail p{
     width: 25%;
+    
 }
 .video{
-    width: 45%;
-    height: 250px;
+    width: 75%;
+    height: 300px;   
 }
+
+ .button{
+    display: flex;
+    width: 250px;
+    height: 45px;
+    justify-content: center;
+    padding: 12px;
+    background-color: #0060b1;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+ }
